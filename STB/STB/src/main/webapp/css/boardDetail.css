@@ -1,0 +1,217 @@
+.board-wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.board-wrapper .category {
+	height: 80px;
+}
+
+.board-wrapper .title-wrapper {
+	box-sizing: border-box;
+	display: flex;
+	height: 500px;
+	border-style: solid;
+	border-color: rgb(221, 221, 221);
+	border-image: initial;
+	border-width: 1px 0px 1px;
+	padding: 30px;
+}
+
+/* slide */
+.board-wrapper .title-wrapper #item-img {
+	position: relative;
+	overflow: hidden;
+	height: 420px;
+	width: 420px;
+	flex-grow: 0;
+	margin-right: 30px;
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(221, 221, 221);
+	border-image: initial;
+}
+
+/* cnt */
+.board-wrapper .title-wrapper #item-img #img-bag {
+	flex-shrink: 0;
+	padding: 10px;
+	height: 420px;
+}
+
+.board-wrapper .title-wrapper #item-img #img-bag li {
+	position: absolute;
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+
+.board-wrapper .title-wrapper #item-img img{
+	
+	width: 400px;
+	margin: auto;
+}
+
+
+/* button */
+.board-wrapper .title-wrapper #item-img .btn button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 0;
+	padding: 5px;
+	background-color:transparent;
+}
+.board-wrapper .title-wrapper #item-img .btn button img{
+	width:40px;
+}
+
+
+
+.board-wrapper .title-wrapper #item-img .prev {
+	left: 5px;
+}
+
+.board-wrapper .title-wrapper #item-img .next {
+	right: 5px;
+}
+
+.board-wrapper .title-wrapper #item-img .auto button {
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	border: 0;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.board-wrapper .title-wrapper #item-img .indi {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.board-wrapper .title-wrapper #item-img .indi:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.board-wrapper .title-wrapper #item-img .indi>li {
+	float: left;
+	margin-left: 5px;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	opacity: 0.5;
+	background-color: #fff;
+}
+
+.board-wrapper .title-wrapper #item-img .indi>li.on{
+	opacity: 1;
+}
+
+.board-wrapper .title-wrapper #item-img .indi>li:first-child{
+	margin-left:0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.board-wrapper .title-wrapper #item-info {
+	flex-grow: 1;
+}
+
+.board-wrapper .title-wrapper #item-info #item-title {
+	border-style: solid;
+	border-color: rgb(221, 221, 221);
+	border-image: initial;
+	border-width: 0px 0px 1px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-title span {
+	font-size: 25px;
+	display: inline-block;
+	margin: 0px 0px 30px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-title #item-date {
+	float: right;
+}
+
+.board-wrapper .title-wrapper #item-info #item-title #item-price {
+	font-size: 35px;
+	margin: 0px 0px 30px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-ect {
+	margin: 30px 0px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-ect .item-ect-class {
+	margin-right: 10px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-ect .item-ect-class img {
+	width: 30px;
+	height: 30px;
+}
+
+.board-wrapper .title-wrapper #item-info #item-sssss {
+	height: 150px;
+}
+
+
+.board-wrapper .title-wrapper #item-info #item-buy #heart {
+	background-color: red;
+}
+
+.board-wrapper .title-wrapper #item-info #item-buy button {
+	width: 255px;
+	height: 56px;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 15px;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+}
+
+.board-wrapper .title-wrapper #item-info #item-buy {
+	display: flex;
+	justify-content: space-between;
+}
+
+.board-wrapper .title-wrapper #item-info #item-buy #heart2 {
+	background-color: #ddd;
+}
+
+.board-wrapper .title-wrapper #item-info #item-buy img {
+	width: 30px;
+	height: 30px;
+	filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(269deg)
+		brightness(115%) contrast(100%);
+}
+
+.board-wrapper .title-wrapper #item-info #item-buy #buy {
+	background-color: rgb(255, 234, 0);
+}
+
+.board-wrapper .board-contents {
+	margin-top: 50px;
+}
+
+main .mainContainer .card {
+	font-size: 14px;
+}
+
+main .mainContainer .card #reply--box .d-flex {
+	font-size: 14px;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* theadC : #fab90126 */
+
+h1 {
+	font-size: 28px;
+	font-weight: 900;
+}
+
+#myPage-container {
+	margin-top: 40px;
+	display: flex;
+}
+
+
+.myPageBar {
+	
+	width: 140px;
+	height: 550px;
+	border-right : 1px solid #ececec;
+	margin-right: 40px;
+	
+}
+
+.myPageBar > li {
+	height: 40px;
+	padding: 5px;
+}
+
+.myPageBar > li:hover {
+	font-weight: 900;
+}
+
+#myPageSession {
+	height: 100%;
+}

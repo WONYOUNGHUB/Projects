@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+html, body {
+	margin:0; padding:0;
+	height:100%;
+}
+
+#wrap {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+section {
+	flex:1;
+}
+
+h1, a, p, li, em, input {
+	font-family: 'Nanum Gothic', sans-serif;
+	color: black;
+	letter-spacing: -1px;
+}
+
+.skip {
+	display: none;
+}
+
+#tothetop {
+	position: fixed;
+	bottom: 50%;
+	right: 0%;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#tothetop img {
+	display: inline-block;
+	width: 40px;
+}
+
+
+#insertBtn {
+	position: fixed;
+	bottom: 15%;
+	right: 10%;
+	cursor: pointer;
+	z-index: 998;
+	
+}
+
+#insertBtn img {
+	display: inline-block;
+	width: 45px;
+	z-index: 100;
+}
+
+header {
+	z-index:3;
+	width: 100%;
+	height: 80px;
+	background-color: #ffea00;
+	position: fixed;
+}
+
+#header_wrap {
+	z-index: 999;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#header_left {
+	margin-right:70px;
+	margin-top: 15px;
+	float: left;
+}
+
+
+.dropbtn {
+	display: inline-block;
+  	padding-left: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+  width: 50px;
+  height: 40px;
+
+}
+
+.dropdown-content {
+  display: none;
+  top: 60px;
+  position: absolute;
+  background-color: #ffea00;
+  min-width: 180px;
+  z-index: 1;
+}
+
+.dropdown-content > ul > li {
+	padding : 10px;
+	
+}
+
+
+.dropdown-content a {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 3px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+	font-weight: 900;
+}
+
+.dropdown {
+	margin-right: 80px;
+}
+
+/*header right*/
+
+#btn_menu {
+	position: absolute;
+}
+#btn_menu img {
+	display: inline-block;
+	width: 30px;
+	margin-top:5px;
+}
+
+#cateogry{
+	position: absolute;
+	top: 0px;
+	display: inline-block;
+	width: 300px;
+}
+	
+	
+#logo {
+	margin-top: 15px;
+}
+#logo img {
+	height: 45px;
+	
+}
+
+
+/*header center*/
+
+input[type="text"], textarea {
+	background-color: #FFFFE0;
+}
+
+input[type="tel"], textarea {
+	background-color: #FFFFE0;
+}
+
+
+#header_center {
+	float: left;
+	margin-top: 17px;
+	width: 440px;
+	height: 48px;
+
+}
+
+#search form {
+	width: 430px;
+	height: 45px;
+	border: none;
+	margin-top: 15px;
+	position: relative;
+}
+
+#search input {
+	display: inline-block;
+	padding-left: 20px;
+	width: 400px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: absolute;
+	
+}
+#btn_search{
+	position: absolute;
+	margin-left: 390px;
+	margin-top:12px;
+}
+#btn_search img {
+	float: left;
+	width: 20px;
+}
+
+
+
+/*header right*/
+#header_right {
+	margin-top:25px;
+	font-size: 15px;
+	float: right;	
+}
+
+#btn_mypage {
+	float: left;
+	margin-right: 15px;
+}
+#btn_mypage img {
+	width: 27px;
+	margin-right: 5px;
+	
+}
+
+#btn_logout img {
+	height: 25px;
+	margin-right: 5px;
+}
+
+
+
+
+
+/*section*/
+#section_wrap {
+	z-index:0;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 100px 30px;
+}
+
+.nonelistresults{
+	display: inline-block;
+	width: 100%;
+	margin-top: 165px;
+	text-align: center;
+}
+
+/*footer*/
+footer {
+	height:360px;
+	width:100%;
+	background-color:#eaeaea;
+
+}
+
+
+#footer_wrap {
+    width:1024px; margin:0 auto;
+    padding: 30px;
+}
+#footer_top {
+    height:80px; border-bottom:1px solid #bdbdbd;
+    padding-bottom:65px; overflow: hidden;
+    box-sizing: border-box;
+}
+#footer_top ul {
+    padding-top:25px; box-sizing: border-box;
+    text-align: center;
+}
+
+#footer_top ul li {
+    font-family:got11,sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 35px;
+    
+}
+
+#footer_top ul li:nth-of-type(7) {
+    padding-right:0;
+}
+
+#footer_top ul li a {
+    color:#353535;
+    font-size:0.875em;
+}
+#footer_top ul li a:hover {
+    text-decoration:underline;
+}
+
+#footer_top ul li a em {
+    font-family:got15,sans-serif;
+}
+#footer_top > a {
+    float:right;
+}
+#footer_bottom {
+    text-align:center; color:#353535;
+    font-size:0.875em;
+    font-family:got11,sans-serif;
+    padding: 35px 0;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+
+#footer_bottom a img {
+	margin-bottom: 30px;
+}
+
