@@ -1,0 +1,13 @@
+#loginbutton,#logoutbutton{
+    color: white;
+}
+
+@keyframes blinker {
+    50%{
+        color: rgb(223, 150, 12)
+    }
+}
+
+#loginbutton{
+    animation: blinker 0.7s step-end infinite;
+}

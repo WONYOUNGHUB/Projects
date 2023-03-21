@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#wallpaper{
+    
+    background-color:rgb(223, 218, 215);
+    width: 100%;
+    min-height: 100vh;
+}
+
+#headerWrapper{
+    top:0;
+    width: 100%;
+    position: fixed;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(71, 30, 30,0.8);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(223, 218, 215);
+}
+
+#headerWrapper{
+    z-index: 100;
+}

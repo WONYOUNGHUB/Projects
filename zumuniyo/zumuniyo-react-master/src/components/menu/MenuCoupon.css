@@ -1,0 +1,58 @@
+
+#couponWrapper{
+    height: 110px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    vertical-align: middle;
+}
+.listitembtn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius: 1em;
+    margin-right: 10px;
+    padding-top: 0.5em;
+    border: 0.25em solid rgb(252, 178, 62);
+}
+
+
+
+.listitembtn:hover{
+    background-color: rgba(209, 157, 78, 0.6);
+    cursor: pointer;
+
+}
+
+#couponWrapper::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+#couponWrapper::-webkit-scrollbar-thumb{
+    background: rgb(71, 30, 30,0.8);
+    border-radius: 10px;
+}
+#couponWrapper::-webkit-scrollbar-track {
+    background: rgb(223, 218, 215);
+}
+
+
+.minPrice{
+    
+}
+
+.dcPrice{
+
+}
+
+.dueDate{
+    font-size: smaller;
+    vertical-align: bottom;
+}
+
+
+

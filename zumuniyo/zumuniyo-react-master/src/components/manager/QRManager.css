@@ -1,0 +1,9 @@
+#createQRbutton,#printQRbutton{
+    color: rgb(71, 30, 30);
+    border-color:rgb(71, 30, 30,0.7);
+    font-size: 0.9em;
+}
+#createQRbutton:hover,#printQRbutton:hover{
+    background-color: rgb(71, 30, 30,0.1);
+}   
+

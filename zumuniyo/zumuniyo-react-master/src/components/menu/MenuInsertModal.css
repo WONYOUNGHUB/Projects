@@ -1,0 +1,43 @@
+
+
+.modal-title{
+    color: rgb(24, 24, 24);
+    font-size: large ;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.75em;
+}
+
+.modal-close{
+    float: right;
+}
+
+#previewImage{
+
+width: 15em;
+height: 10em;
+
+}
+
+
+
+#menuInsertBox{
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+    #menuInsertBox::-webkit-scrollbar {
+    width: 10px;
+    }
+    #menuInsertBox::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 10px;
+    }
+    #menuInsertBox::-webkit-scrollbar-track {
+    background: F3F3F3;
+    }
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+#naverIdLogin{
+    display: none;
+}
+
+#naverLoginButton:hover,
+#kakaoLoginButton:hover,
+#naverLogoutButton:hover{
+    cursor: pointer;
+}
+
+#socialLoginWrapper{
+    background-color: rgb(94, 64, 54);
+    width: 100%;
+    min-height: 120vh;
+    margin-top: -5em;
+    
+}
+
+#naverLoginButton{
+    width: 15em;
+    height: 4em;
+}
+
+#mark{
+    min-width: 500px;
+    min-height: 500px;
+    height: 500px;
+}
+
+#markwrapper{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.hiddenhr{
+    visibility: hidden;
+}
+
+#loginText{
+    font-family: 'NanumSquare';
+    font-weight: 300;
+    color: white;
+    display: inline;
+    font-size: 3em;
+}

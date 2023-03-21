@@ -1,0 +1,244 @@
+
+
+
+
+#menuDetailWrapper {
+    
+    max-height: 450px;
+    overflow-y: scroll;
+}
+    #menuDetailWrapper::-webkit-scrollbar {
+    width: 10px;
+    }
+    #menuDetailWrapper::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 10px;
+    }
+    #menuDetailWrapper::-webkit-scrollbar-track {
+    background: F3F3F3;
+    }
+
+
+
+#modalBottomWrapper {
+   
+    
+   display: inline-block;
+   background-color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+#menuSimpleInfoSpace {
+
+    padding-left: 0.2em;
+}
+
+
+#menuPriceGagyuk {
+    
+    display: inline-block;
+}
+#menuPriceSpace {
+    padding-top: 1em;
+    float: right;
+    display: inline-block;
+}
+
+
+.menuQRImage {
+    align-items: center;
+}
+#imageTop {
+    width: 9.5em;
+    height: 7em;
+}
+#imageList {
+    padding-left: 20px;
+    width: 6em;
+    height: 4em;
+}
+
+.infoList {
+    color: gray;
+    font-size: smaller;
+}
+.priceList {
+    font-size: larger;
+    color: rgb(222, 112, 40);
+}
+
+
+
+
+#modalHead {
+    align-items: center;
+}
+
+
+
+#menuTopListSpace {
+    background-color: rgb(106, 98, 102);
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: auto;
+    
+}
+
+
+.menuTopTitleBtn{
+    background-color: rgb(252, 178, 62);
+    border: 1px solid rgb(222, 142, 40);
+    
+}
+.menuTopListBtn{
+    width: 189px;
+    height: 216px;
+    
+    
+    display: inline-block;
+
+    background-color: white;
+    border: 1px solid rgb(210, 210, 210);
+}
+.categoryTitleBtn{
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(160, 160, 160);
+    
+}
+.categoryListBtn{
+    background-color: white;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+#menuTopName{
+    font-weight: bold;
+}
+#menuTopPrice{
+    color: rgb(222, 112, 40);
+}
+
+
+
+#menuTopListOutside{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#menuTopListInside{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+#cartBtn{
+    
+align-items: center;
+text-align:center;
+vertical-align:middle;
+/* color: white; */
+font-size: 26px;
+font-weight:bold;
+display: flex;
+width: 150px;
+height: 100px;
+position: fixed;
+right: 50px;
+bottom: 50px;
+/* background-color: rgba(255, 138, 0); */
+border-radius: 25px;
+    
+}
+#cartbtn:hover {
+	cursor:pointer;
+}
+
+
+.listButton {
+
+    border: 1px solid gray;
+}
+.listButton:hover{
+    background-color: rgba(209, 157, 78, 0.6);
+    cursor: pointer;
+
+}
+
+.cartInMenuList{
+
+
+}
+
+
+.subtitle2 {
+    padding-top: 1em;
+
+}
+
+#cartModal {
+
+    overflow-y: scroll;
+}
+
+#cartModal::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+#cartModal::-webkit-scrollbar-thumb{
+    background: rgb(71, 30, 30,0.8);
+    border-radius: 10px;
+}
+#cartModal::-webkit-scrollbar-track {
+    background: rgb(223, 218, 215);
+}
+
+
+#cartTitle {
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    height: 65px;
+    background-color: rgb(71, 30, 30,0.8) ;
+    color: white;
+}
+#titleText {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#cartBottom {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    position: sticky;
+    bottom: 0;
+    vertical-align: bottom;
+    z-index: 999;
+}
+
+#emptyAlert {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(86, 74, 92) ;
+}
+
+
+
+
+#voidSpace {
+    height: 20em;
+    background-color: rgb(220, 220, 220);
+
+}
+

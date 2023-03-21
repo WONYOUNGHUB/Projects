@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+public/images/red_icon03.png
+package-lock.json
+package.json
+public/images/kakaologin/kakao_login_large_narrow.png
+public/images/kakaologin/kakao_login_large_wide.png
+public/images/kakaologin/kakao_login_large.png
+public/images/kakaologin/kakao_login_medium.png
+public/images/kakaologin/kakaologin.png
+public/images/naverlogin/btnD_로그아웃.png
+public/images/naverlogin/btnD_아이콘사각.png
+public/images/naverlogin/btnD_아이콘원형.png
+public/images/naverlogin/btnD_완성형.png
+public/images/naverlogin/btnD_축약형.png
+public/images/naverlogin/btnG_로그아웃.png
+public/images/naverlogin/btnG_아이콘사각.png
+public/images/naverlogin/btnG_아이콘원형.png
+public/images/naverlogin/btnG_완성형.png
+public/images/naverlogin/btnG_축약형.png
+public/images/naverlogin/btnW_로그아웃.png
+public/images/naverlogin/btnW_아이콘사각.png
+public/images/naverlogin/btnW_아이콘원형.png
+public/images/naverlogin/btnW_완성형.png
+public/images/naverlogin/btnW_축약형.png
+public/images/naverlogin/naverlogin.png
+public/images/naverlogin/resizebtnG_축약형.png
+package-lock.json
+package.json
+package-lock.json
+package.json
+src.zip

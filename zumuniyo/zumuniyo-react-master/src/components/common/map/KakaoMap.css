@@ -1,0 +1,63 @@
+
+.markerbox{
+transform: translate(0px, 1em);
+color: rgba(255, 138, 0);
+font-weight:bold;
+background: rgba(0, 0, 0, 0.3);
+
+}
+
+.markerbox > a{
+text-decoration-line: none;
+color: rgba(255, 138, 0);
+font-weight:bold;
+background: rgba(0, 0, 0, 0.3);
+
+}
+
+.markerbox > a:hover {
+text-decoration-line: none;
+color:white;
+background: rgba(0, 0, 0, 1.0);
+}
+
+#locationSearchbox{
+    width: 15em;
+}
+
+#locationSearchdiv {
+    margin: 1em;
+    text-align: left;
+    position: absolute;
+    z-index: 800;
+    height: 1.6em;
+}
+
+#getMyLocation,#locationSearchbox,#locationSearchbtn{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#map {
+    margin: 0.5em;
+    height: 30em;
+}
+
+#mapWrapper{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 2em;
+    width: 100%;
+    background-color: rgb(245, 241, 238);
+    text-align: center;
+}
+
+#mapbutton{
+    color: rgb(71, 30, 30);
+    border-color:rgb(71, 30, 30,0.7);
+    font-size: 0.9em;
+    border-radius: 1em;
+}
+#mapbutton:hover{
+    background-color: rgb(71, 30, 30,0.1);
+}   

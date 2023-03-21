@@ -1,0 +1,32 @@
+
+
+#shopLogoImg{
+    width: 200px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+#shopInfo{
+    
+}
+
+#shopNotice{
+
+    color: rgb(247, 215, 38);
+}
+
+@keyframes blinker {
+    50%{
+        color: rgb(223, 150, 12)
+    }
+}
+
+#shopNotice{
+    animation: blinker 0.7s step-end infinite;
+}
+
+#gotoShop {
+
+    
+}
+

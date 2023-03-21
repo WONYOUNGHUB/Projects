@@ -1,0 +1,41 @@
+
+
+#menuDetailWrapper {
+    
+    max-height: 450px;
+    overflow-y: scroll;
+}
+    #menuDetailWrapper::-webkit-scrollbar {
+    width: 10px;
+    }
+    #menuDetailWrapper::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 10px;
+    }
+    #menuDetailWrapper::-webkit-scrollbar-track {
+    background: F3F3F3;
+    }
+
+#modalBottomWrapper {
+    
+   display: inline-block;
+   background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#menuSimpleInfoSpace {
+
+    padding-left: 0.2em;
+}
+
+
+
+
+
+
+
+
+

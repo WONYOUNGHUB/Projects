@@ -1,0 +1,32 @@
+.menuPrice{
+
+    color: rgb(0, 0, 0);
+}
+
+#tableHead{
+    background-color: rgb(235, 235, 235);
+}
+.tableHeadFont{
+    color: rgb(0, 0, 0);
+}
+
+.menuImage{
+    width: 6em;
+    height: 4em;
+}
+
+#menuNameSpace {
+    width: 5em;
+
+}
+
+#menuInfoSpace {
+    width: 13em;
+
+}
+
+#menuTotalListBtn {
+    float: left;
+
+}
+
